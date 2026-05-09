@@ -18,7 +18,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 app.use(cors({
-    origin: ["http://localhost:3000", "https://frontend.up.railway.app",],
+    origin: ["http://localhost:3000", "https://team-task-manager-your-task-as-you-go-frontend-production.up.railway.app",],
     credentials: true,
 }));
 
